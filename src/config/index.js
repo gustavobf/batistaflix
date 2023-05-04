@@ -1,6 +1,4 @@
-const URL = window.location.hostname.includes('localhost')
-  ? 'http://localhost:8080'
-  : 'https://batistaflix.herokuapp.com';
+const URL = 'http://localhost:8080';
 
 export default {
   URL,
